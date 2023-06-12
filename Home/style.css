@@ -665,7 +665,7 @@
 .flex-box-review .review .img2 {
     width: 100%;
     height: 250px;
-    background: url('https://genk.mediacdn.vn/2018/10/7/batchimg8710-1538928428100807371084.jpg') right center no-repeat;
+    background: url('https://hnp.vn/wp-content/uploads/2020/05/tai-nghe-redmi-airdots-h7-1.jpg') right center no-repeat;
     background-size: 110%;
     transition: 0.3s;
 }
@@ -691,7 +691,7 @@
 /* body4 */
 #body4 {
     width: 100%;
-padding-bottom: 100px;
+    padding-bottom: 100px;
 }
 
 #body4 .address {
@@ -706,13 +706,13 @@ padding-bottom: 100px;
 #body4 .address .text-box {
     width: 25%;
     text-align: center;
-  
+
 }
 
 #body4 .address .text-box .infor {
     width: 100%;
     font-size: 20px;
-    font-weight: 600;  
+    font-weight: 600;
 
 }
 
@@ -726,3 +726,60 @@ padding-bottom: 100px;
 /* body4 */
 
 /* Body */
+
+/* footer */
+
+#footer {
+    width: 100%;
+    height: 60vh;
+    background-color: #dcdcdc;
+    text-transform: uppercase;
+}
+
+#footer .footer-infor {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    font-weight: 500;
+    justify-content: space-between;
+}
+
+#footer .footer-infor .site-box {
+    margin-top: 100px;
+    width: 25%;
+    height: 200px;
+}
+
+#footer .footer-infor .site-box a {
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    line-height: 35px;
+}
+
+#footer .footer-infor .site-box a:hover {
+    text-decoration: underline;
+
+}
+
+#footer .footer-icon {
+    width: 100%;
+    text-align: center;
+}
+
+#footer .footer-icon .box {
+    width: 15%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer .footer-icon .box i {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* footer */
