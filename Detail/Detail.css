@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+
+}
+
+/* header */
+#header {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #F6F1F1;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.navigation {
+    width: 80%;
+    /* background-color: rebeccapurple; */
+    margin: auto;
+}
+
+#header .navigation .logo {
+    width: 200px;
+}
+
+#header .navigation .nav {
+    display: inline-block;
+    float: right;
+}
+
+.navigation .nav li {
+    display: inline;
+    line-height: 80px;
+    padding: 0 24px;
+    text-transform: uppercase;
+
+}
+
+.navigation .nav li a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease;
+
+}
+
+.navigation li a:hover {
+    text-decoration: underline;
+}
+
+/* header */
+
+/* slider */
+#slider {
+    margin-top: 5em;
+    width: 100%;
+    height: 70vh;
+    background-size: 100%;
+}
+
+#slider .slider-wrap {
+    width: 90%;
+    height: 50Vh;
+    float: right;
+    /* background-color: #1495d1; */
+    display: flex;
+
+
+}
+
+#title {
+    width: 45%;
+}
+
+.title {
+
+    padding-top: 160px;
+    color: #fff;
+    font-weight: 700;
+    width: 100%;
+    font-size: 50px;
+    background: linear-gradient(to right, #30CFD0 0%, #5e08c8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.page {
+    color: #000;
+    font-weight: 300;
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    /* font-size: 50px; */
+}
+
+.slider-img {
+    width: 60%;
+    height: 70Vh;
+    background: url('https://www.searchenginejournal.com/wp-content/uploads/2019/01/Top-10-Ranking-About-Us-Pages.png') center center no-repeat;
+
+}
+
+/* slider */
+/* body */
+#body {
+    width: 100%;
+    height: fit-content;
+}
+
+
+
+/* body1 */
+#body #body1 {
+    width: 100%;
+    height: 70vh;
+    background: url('https://cdn-amz.woka.io/images/I/81bLwivNL2L.jpg') center center no-repeat;
+    background-size: 100%;
+
+}
+
+#body #body1 h2 {
+    padding-top: 40px;
+    word-spacing: 3px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+#body #body1 h4 {
+    font-weight: 300;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+#body #body1 .page {
+    width: 100%;
+    background-color: #00000078;
+    height: 100%;
+}
+
+#body #body1 p {
+    padding-top: 70px;
+
+    font-style: italic;
+    color: #ffffff;
+    width: 80%;
+    margin: auto;
+    line-height: 40px;
+    font-weight: 500;
+}
+
+
+
+/* body1 */
+/* body2 */
+
+
+
+/* body2 */
+
+
+/* body */
