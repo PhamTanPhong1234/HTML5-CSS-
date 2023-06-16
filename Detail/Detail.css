@@ -1,170 +1,286 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: Poppins;
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: Poppins;
 
-}
+    }
 
-/* header */
-#header {
-    position: fixed;
-    z-index: 10;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 80px;
-    background-color: #F6F1F1;
-    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
-}
+    .marginauto {
+        margin: auto;
+    }
 
-.navigation {
-    width: 80%;
-    /* background-color: rebeccapurple; */
-    margin: auto;
-}
+    /* header */
+    #header {
+        position: fixed;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 80px;
+        background-color: #F6F1F1;
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+    }
 
-#header .navigation .logo {
-    width: 200px;
-}
+    .navigation {
+        width: 80%;
+        /* background-color: rebeccapurple; */
+        margin: auto;
+    }
 
-#header .navigation .nav {
-    display: inline-block;
-    float: right;
-}
+    #header .navigation .logo {
+        width: 200px;
+    }
 
-.navigation .nav li {
-    display: inline;
-    line-height: 80px;
-    padding: 0 24px;
-    text-transform: uppercase;
+    #header .navigation .nav {
+        display: inline-block;
+        float: right;
+    }
 
-}
+    .navigation .nav li {
+        display: inline;
+        line-height: 80px;
+        padding: 0 24px;
+        text-transform: uppercase;
 
-.navigation .nav li a {
-    text-decoration: none;
-    color: black;
-    transition: all 0.3s ease;
+    }
 
-}
+    .navigation .nav li a {
+        text-decoration: none;
+        color: black;
+        transition: all 0.3s ease;
 
-.navigation li a:hover {
-    text-decoration: underline;
-}
+    }
 
-/* header */
+    .navigation li a:hover {
+        text-decoration: underline;
+    }
 
-/* slider */
-#slider {
-    margin-top: 5em;
-    width: 100%;
-    height: 70vh;
-    background-size: 100%;
-}
+    /* header */
 
-#slider .slider-wrap {
-    width: 90%;
-    height: 50Vh;
-    float: right;
-    /* background-color: #1495d1; */
-    display: flex;
+    /* slider */
+    #slider {
+        margin-top: 5em;
+        width: 100%;
+        height: 70vh;
+        background-size: 100%;
+    }
 
-
-}
-
-#title {
-    width: 45%;
-}
-
-.title {
-
-    padding-top: 160px;
-    color: #fff;
-    font-weight: 700;
-    width: 100%;
-    font-size: 50px;
-    background: linear-gradient(to right, #30CFD0 0%, #5e08c8 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.page {
-    color: #000;
-    font-weight: 300;
-    width: 80%;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    /* font-size: 50px; */
-}
-
-.slider-img {
-    width: 60%;
-    height: 70Vh;
-    background: url('https://www.searchenginejournal.com/wp-content/uploads/2019/01/Top-10-Ranking-About-Us-Pages.png') center center no-repeat;
-
-}
-
-/* slider */
-/* body */
-#body {
-    width: 100%;
-    height: fit-content;
-}
+    #slider .slider-wrap {
+        width: 90%;
+        height: 50Vh;
+        float: right;
+        /* background-color: #1495d1; */
+        display: flex;
 
 
+    }
 
-/* body1 */
-#body #body1 {
-    width: 100%;
-    height: 70vh;
-    background: url('https://cdn-amz.woka.io/images/I/81bLwivNL2L.jpg') center center no-repeat;
-    background-size: 100%;
+    #title {
+        width: 45%;
+    }
 
-}
+    .title {
 
-#body #body1 h2 {
-    padding-top: 40px;
-    word-spacing: 3px;
-    width: 100%;
-    text-align: center;
-    color: white;
-}
+        padding-top: 160px;
+        color: #fff;
+        font-weight: 700;
+        width: 100%;
+        font-size: 50px;
+        background: linear-gradient(to right, #30CFD0 0%, #5e08c8 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 
-#body #body1 h4 {
-    font-weight: 300;
-    letter-spacing: 2px;
-    word-spacing: 2px;
-    padding: 10px 0;
-    width: 100%;
-    text-align: center;
-    color: white;
-}
+    .page {
+        color: #000;
+        font-weight: 300;
+        width: 80%;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        /* font-size: 50px; */
+    }
 
-#body #body1 .page {
-    width: 100%;
-    background-color: #00000078;
-    height: 100%;
-}
+    .slider-img {
+        width: 60%;
+        height: 70Vh;
+        background: url('https://www.searchenginejournal.com/wp-content/uploads/2019/01/Top-10-Ranking-About-Us-Pages.png') center center no-repeat;
 
-#body #body1 p {
-    padding-top: 70px;
+    }
 
-    font-style: italic;
-    color: #ffffff;
-    width: 80%;
-    margin: auto;
-    line-height: 40px;
-    font-weight: 500;
-}
+    /* slider */
+    /* body */
+    #body {
+        width: 100%;
+        height: fit-content;
+    }
 
 
 
-/* body1 */
-/* body2 */
+    /* body1 */
+    #body #body1 {
+        width: 100%;
+        height: 70vh;
+        background: url('https://cdn-amz.woka.io/images/I/81bLwivNL2L.jpg') center center no-repeat;
+        background-size: 100%;
+
+    }
+
+    #body #body1 h2 {
+        padding-top: 40px;
+        word-spacing: 3px;
+        width: 100%;
+        text-align: center;
+        color: white;
+    }
+
+    #body #body1 h4 {
+        font-weight: 300;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+        padding: 10px 0;
+        width: 100%;
+        text-align: center;
+        color: white;
+    }
+
+    #body #body1 .page {
+        width: 100%;
+        background-color: #00000078;
+        height: 100%;
+    }
+
+    #body #body1 p {
+        padding-top: 70px;
+        font-style: italic;
+        color: #ffffff;
+        width: 80%;
+        margin: auto;
+        line-height: 40px;
+        font-weight: 500;
+    }
 
 
 
-/* body2 */
+    /* body1 */
+    /* body2 */
+    #body2 h1 {
+        margin: 60px 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    #body2 .founder {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: #000;
+        color: #fff;
+        height: 50vh;
+    }
+
+    .founder .founder-box {
+        width: calc(100%/3 - 15px);
+        height: 100%;
+        /* background-color: red; */
+        display: flex;
+    }
+
+    .founder .founder-box #founder-img {
+        margin-top: 75px;
+        width: 100px;
+        height: 100px;
+        border-radius: 70px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .founder .founder-box .founder-img1 {
+        background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Steve_Jobs_Headshot_2010-CROP_%28cropped_2%29.jpg/640px-Steve_Jobs_Headshot_2010-CROP_%28cropped_2%29.jpg') center center no-repeat;
+        background-size: 100%;
+    }
+
+    .founder .founder-box .founder-img2 {
+        background: url('https://upload.wikimedia.org/wikipedia/commons/0/03/Jeff_Bezos_visits_LAAFB_SMC_%283908618%29_%28cropped%29.jpeg') top center no-repeat;
+        background-size: 100%;
+    }
+
+    .founder .founder-box .founder-img3 {
+        background: url('https://upload.wikimedia.org/wikipedia/commons/a/a8/Bill_Gates_2017_%28cropped%29.jpg') top center no-repeat;
+        background-size: 100%;
+    }
+
+    .founder .founder-box .founder-name,
+    .founder .founder-box .founder-line {
+        width: 100%;
+        text-align: center;
+        margin: 12px 0;
+
+    }
+
+    .founder .founder-box .founder-line {
+        font-style: italic;
+        font-weight: 400;
+    }
+
+    .founder .founder-box .founder-word {
+        padding-top: 10px;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        letter-spacing: 2px;
+        font-weight: 600;
+    }
+
+    /* body2 */
+
+    /* body3 */
+    #body3 {
+        margin-top: 100px;
+        width: 100%;
+        background-color: rgb(255, 0, 0);
+        height: fit-content;
+    }
+
+    #body3 .body3-wrap {
+        width: 90%;
+        float: left;
+        height: 60vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #body3 .body3-wrap .commit {
+        width: 30%;
+        text-align: left;
+
+    }
+
+    #body3 .body3-wrap .commit h1 {
+        font-weight: 700;
+        font-size: 40px;
+        padding: 14px 0;
+        background: linear-gradient(to right, #30CFD0 0%, #5e08c8 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    #body3 .body3-wrap .video-wrap {
+        width: 60%;
+        height: 100%;
+        background-color: #000;
+        display: flex;
+        align-items: center;
+    }
+
+    /* body3 */
+    /* Body4 */
 
 
-/* body */
+
+    /* Body4 */
+
+    /* body */
