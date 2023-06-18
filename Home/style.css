@@ -507,11 +507,12 @@
 .item2 .card {
     position: absolute;
     bottom: 110px;
+    transform: scale(0.9);
     transition: 0.3s;
 }
 
 .item2:hover .card {
-    transform: scale(1.1);
+    transform: scale(1.0);
 }
 
 .item2 h3 {
@@ -549,11 +550,12 @@
 .item5 .card {
     position: absolute;
     bottom: 50px;
+    transform: scale(0.9);
     transition: 0.3s;
 }
 
 .item5:hover .card {
-    transform: scale(1.1);
+    transform: scale(1.0);
 }
 
 .item5 h3 {
